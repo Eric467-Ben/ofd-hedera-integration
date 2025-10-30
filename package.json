@@ -1,0 +1,19 @@
+{
+  "name": "ofd-hedera-integration",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat run --network hedera_testnet scripts/deploy.js",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.16.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
